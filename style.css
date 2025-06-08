@@ -1,0 +1,47 @@
+/* Center the entire body content */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: lightblue;
+  text-align: center;
+}
+
+/* Keep the logo aligned to the top left */
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+}
+/* Navigation bar */
+.nav {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+}
+/* Page title */
+.page-title {
+  margin-top: 60px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Center main content image */
+.main-image {
+  display: block;
+  margin: 20px auto;
+  width: 500px;
+}
+
+/* Description paragraph area */
+.description {
+  max-width: 80%;
+  margin: 20px auto;
+  font-size: 18px;
+  text-align: left;
+}

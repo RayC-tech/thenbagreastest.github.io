@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Survey</title>
   <link rel="stylesheet" href="style.css">
+    <script src="quote.js"></script>
 </head>
 
 <body>
@@ -26,21 +27,42 @@
     <p><strong>Website Feedback Survey</strong></p>
     <p>Thank you for visiting my website! Please take a moment to share what you enjoyed most. Your feedback helps me improve.</p>
 
-    <!-- Survey Questions -->
-    <ol>
-      <li>What did you enjoy the most on the website?</li><br>
-      <li>What did you like about that section?</li><br>
-      <li>Was the information presented in an engaging way?</li><br>
-      <li>What would you like to see added or improved?</li><br>
-      <li>How would you rate your overall experience on the site?</li><br>
-      <li>Would you recommend this site to a friend?</li><br>
-    </ol>
-  </div>
+    <!-- Survey Intro -->
+<div class="description">
+  <form action="#" method="post">
+    <p><strong>Website Feedback Survey</strong></p>
+    <p>Thank you for visiting my website! Please take a moment to share what you enjoyed most. Your feedback helps me improve.</p>
 
+    <label>1. What did you enjoy the most on the website?</label><br>
+    <input type="text" name="question1" style="width: 100%;"><br><br>
+
+    <label>2. What did you like about that section?</label><br>
+    <input type="text" name="question2" style="width: 100%;"><br><br>
+
+    <label>3. Was the information presented in an engaging way?</label><br>
+    <select name="question3">
+      <option value="Yes">Yes</option>
+      <option value="Somewhat">Somewhat</option>
+      <option value="No">No</option>
+    </select><br><br>
+
+    <label>4. What would you like to see added or improved?</label><br>
+    <textarea name="question4" rows="3" style="width: 100%;"></textarea><br><br>
+
+    <label>5. How would you rate your overall experience on the site?</label><br>
+    <input type="range" name="rating" min="1" max="10"><br><br>
+
+    <label>6. Would you recommend this site to a friend?</label><br>
+    <input type="radio" name="recommend" value="Yes"> Yes
+    <input type="radio" name="recommend" value="No"> No<br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
   <!-- Footer -->
   <div class="footer">
-    <a href="#">Privacy Policy </a> |
-    <a href="#">Terms of Service</a> |
+    <a href="home.html">Home</a> |
+    <a href="second.html">NBA GREATEST</a> |
     <a href="Form.html">Survey</a>
   </div>
 
